@@ -1,0 +1,24 @@
+.outer{
+    height: 600px;
+    width: 600px;
+    background-image: url(assets/glassmorphism-pic\ -1.jpeg);    /* post your own image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;        /*change according to your own prefernce*/
+   justify-content: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+.inner{
+    height: 350px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.207);
+    border-radius: 10px;
+}
